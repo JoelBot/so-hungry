@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import '../css/App.css';
 
-class IDK extends Component {
+class API extends Component {
     constructor(props) {
         super(props)
         this.fetchAPI = this.fetchAPI.bind(this)
@@ -49,4 +49,4 @@ class IDK extends Component {
     }
 }
 
-export default IDK;
+export default API;

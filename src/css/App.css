@@ -1,26 +1,32 @@
 * {
   box-sizing: border-box;
-  background-color: #222;
+  /*background-color: #222;*/
   color: white;
 }
 
 img {
-  /*width: 100%;*/
+  width: 100%;
+  /*max-width: 300px;*/
 }
 
 .App {
   text-align: center;
+  background-image: url("http://lorempixel.com/1920/1080/cats/");
+  height: 100vh;
+  width: 100vw;
+
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 100%;
+  height: 10vh;
+  width: 10vh;
 }
 
-.App-header {
-  background-color: #222;
+.App-header img{
+  /*background-color: #222;*/
   /*height:150px;*/
-  padding: 20px;
+  /*padding: 20px;*/
   color: white;
 }
 
@@ -36,8 +42,8 @@ img {
   /*height: 100vh;*/
   /*width: 100vw;*/
 
-  margin-top: 200px;
-  color: white;
+  margin-top: 20px;
+  color: black;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
