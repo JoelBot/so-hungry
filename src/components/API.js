@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import '../css/App.css';
 import UserForm from './UserForm';
 
@@ -12,6 +11,8 @@ function VisibleForm (props){
     )
 }
 
+
+
 class API extends Component {
     constructor(props) {
         super(props)
@@ -23,6 +24,7 @@ class API extends Component {
         this.state = {showForm: false}
         this.handleToggleForm = this.handleToggleForm.bind(this);
     }
+
 
     // componentWillMount() {
     //     const formData = new FormData();

@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './css/index.css';
-import Home from './components/Home'
 import API from './components/API'
-import UserForm from './components/UserForm'
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 
