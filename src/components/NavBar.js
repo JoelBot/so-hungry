@@ -15,7 +15,7 @@ export class NavBar extends Component {
         return(
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
-                    <div className="navbar-header">                        {/*<a className="navbar-brand" href="#">Brand</a>*/}
+                    <div className="navbar-header">
 
                         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span className="sr-only">Toggle navigation</span>
@@ -28,17 +28,15 @@ export class NavBar extends Component {
                         </span>
                     </div>
 
-                    {/*<!-- Collect the nav links, forms, and other content for toggling -->*/}
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav">
-                            <li className="active"><a href="#">Link <span className="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>
+                            <li className="active"><a href="https://www.yelp.com/seattle">Yelp<span className="sr-only">(current)</span></a></li>
                             <li className="dropdown">
-                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
+                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Placeholder <span className="caret"></span></a>
                                 <ul className="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="http://www.reddit.com">Reddit</a></li>
+                                    <li><a href="http://www.wsdot.com/traffic/seattle/default.aspx">Traffic</a></li>
+                                    <li><a href="https://weather.com/weather/today/l/47.61,-122.33">Weather</a></li>
                                     <li role="separator" className="divider"></li>
                                     <li><a href="#">Separated link</a></li>
                                     <li role="separator" className="divider"></li>
@@ -46,7 +44,7 @@ export class NavBar extends Component {
                                 </ul>
                             </li>
                         </ul>
-                        <form className="navbar-form navbar-left">
+                        <form className="navbar-form navbar-right">
                             <div className="form-group">
                                 <input type="text" className="form-control" placeholder="Search" />
                             </div>
