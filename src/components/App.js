@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UserForm from './UserForm';
 import NavBar from './NavBar'
+import LeftCol from './LeftCol'
 
 function VisibleForm (props){
     if(!props.showForm){
@@ -79,23 +80,23 @@ class API extends Component {
     render() {
         return (
             <div className="App">
-                <div className="col-sm-12">
+                <div className="container-fluid">
                     <NavBar />
-                    <div className="col-sm-2">
+                    <div className={"row-fluid"}>
+                        <LeftCol />
 
-                    </div>
+                        <div className="col-sm-10 padding">
+                            <header className="App-header">
 
-                    <div className="col-sm-10 padding">
-                        <header className="App-header">
+                                <iframe src="https://giphy.com/embed/jlEkt1QTAZJXa" width="480" height="206" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                            </header>
+                            <button className="IDKButton" onClick={this.handleToggleForm}>Start new search</button>
+                            <VisibleForm showForm={this.state.showForm} />
 
-                            <iframe src="https://giphy.com/embed/jlEkt1QTAZJXa" width="480" height="206" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-                        </header>
-                        <button className="IDKButton" onClick={this.handleToggleForm}>Start new search</button>
-                        <VisibleForm showForm={this.state.showForm} />
+                        </div>
+                        <div>
 
-                    </div>
-                    <div>
-
+                        </div>
                     </div>
                 </div>
             </div>
