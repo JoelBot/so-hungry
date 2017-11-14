@@ -12,6 +12,8 @@ function VisibleForm (props){
     )
 }
 
+
+
 class API extends Component {
     constructor(props) {
         super(props)
@@ -23,6 +25,7 @@ class API extends Component {
         this.state = {showForm: false}
         this.handleToggleForm = this.handleToggleForm.bind(this);
     }
+
 
     // componentWillMount() {
     //     const formData = new FormData();
