@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/App.css';
 import UserForm from './UserForm';
 import NavBar from './NavBar'
 
